@@ -1,0 +1,31 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build --dotenv .env.production",
+    "dev": "nuxt dev --dotenv .env.local",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview --dotenv .env.production",
+    "postinstall": "nuxt prepare"
+  },
+  "overrides": {
+    "vue": "latest"
+  },
+  "devDependencies": {
+    "@element-plus/nuxt": "^1.0.6",
+    "@nuxt/devtools": "latest",
+    "@nuxtjs/tailwindcss": "^6.8.0",
+    "@types/nodemailer": "^6.4.9",
+    "element-plus": "^2.3.14",
+    "nuxt": "3.7.3"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.4.11",
+    "cos-nodejs-sdk-v5": "^2.12.4",
+    "md-editor-v3": "^4.6.1",
+    "mitt": "^3.0.1",
+    "nodemailer": "^6.9.4",
+    "pinia": "^2.1.4"
+  }
+}
